@@ -837,7 +837,7 @@ function FutureYou({
       </section>
       <section className="future-editorial">
         <img
-          src="/assets/future-you.jpg"
+          src={`${import.meta.env.BASE_URL}assets/future-you.jpg`}
           alt="A couple talking together at home"
           loading="lazy"
           decoding="async"
@@ -953,7 +953,7 @@ function GoalDetail({
         </div>
         <div className="goal-visual">
           <img
-            src="/assets/co-connect-home.jpg"
+            src={`${import.meta.env.BASE_URL}assets/co-connect-home.jpg`}
             alt="A couple planning together in their kitchen"
             loading="lazy"
             decoding="async"
@@ -1123,7 +1123,7 @@ function ReferralsHub({
           )}
         </div>
         <img
-          src="/assets/referrals.jpg"
+          src={`${import.meta.env.BASE_URL}assets/referrals.jpg`}
           alt="Friends talking together around a table"
           loading="lazy"
           decoding="async"
@@ -1582,7 +1582,7 @@ function Landing({ navigate }: { navigate: (s: Screen) => void }) {
         >
           <img
             className="hero-photo"
-            src="/assets/co-connect-home.jpg"
+            src={`${import.meta.env.BASE_URL}assets/co-connect-home.jpg`}
             alt="A couple talking together at home"
             fetchPriority="high"
             decoding="async"
@@ -1591,7 +1591,7 @@ function Landing({ navigate }: { navigate: (s: Screen) => void }) {
           <div className="orbit orbit-two" />
           <div className="portrait p1">
             <img
-              src="/assets/8bf22.png"
+              src={`${import.meta.env.BASE_URL}assets/8bf22.png`}
               alt="Financial advisor"
               loading="lazy"
               decoding="async"
@@ -1599,7 +1599,7 @@ function Landing({ navigate }: { navigate: (s: Screen) => void }) {
           </div>
           <div className="portrait p2">
             <img
-              src="/assets/480ae.png"
+              src={`${import.meta.env.BASE_URL}assets/480ae.png`}
               alt="Financial advisor"
               loading="lazy"
               decoding="async"
@@ -1607,7 +1607,7 @@ function Landing({ navigate }: { navigate: (s: Screen) => void }) {
           </div>
           <div className="portrait p3">
             <img
-              src="/assets/c2bde.png"
+              src={`${import.meta.env.BASE_URL}assets/c2bde.png`}
               alt="Financial advisor"
               loading="lazy"
               decoding="async"
@@ -2144,7 +2144,7 @@ function Results({
       </p>
       <div className="discovery-editorial">
         <img
-          src="/assets/advisor-conversation.jpg"
+          src={`${import.meta.env.BASE_URL}assets/advisor-conversation.jpg`}
           alt="Two people reviewing information together"
           loading="lazy"
           decoding="async"

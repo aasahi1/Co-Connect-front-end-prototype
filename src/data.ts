@@ -92,7 +92,7 @@ export const advisors: Advisor[] = [
     approach:
       "Her planning style starts with listening. She uses plain language and visual roadmaps, then builds a flexible plan you can revisit as life changes.",
 
-    image: "/assets/8bf22.png",
+    image: `${import.meta.env.BASE_URL}assets/8bf22.png`,
 
     color: "#48b69a",
   },
@@ -126,7 +126,7 @@ export const advisors: Advisor[] = [
     approach:
       "He breaks each goal into practical next steps and gives you time to make decisions without pressure.",
 
-    image: "/assets/480ae.png",
+    image: `${import.meta.env.BASE_URL}assets/480ae.png`,
 
     color: "#4ab0d2",
   },
@@ -166,7 +166,7 @@ export const advisors: Advisor[] = [
     approach:
       "She begins with your questions, explains trade-offs clearly, and creates an investment plan at a pace that feels comfortable.",
 
-    image: "/assets/c2bde.png",
+    image: `${import.meta.env.BASE_URL}assets/c2bde.png`,
 
     color: "#3e94c6",
   },
