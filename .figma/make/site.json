@@ -1,0 +1,10 @@
+{
+  "description": "Connects users with personalized financial advisor matches through a tailored quiz, detailed profiles, and easy comparison to find the best fit.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
